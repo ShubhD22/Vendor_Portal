@@ -60,6 +60,7 @@ export default function AdminDashboard() {
       subItems: [
         { text: "All Product", link: "products" },
         { text: "Create Product", link: "create-product" },
+        { text: "Create Product Category", link: "product-category" },
       ],
       bgColor: "bg-cyan-600", 
     },

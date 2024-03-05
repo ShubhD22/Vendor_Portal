@@ -26,6 +26,7 @@ import AddRFP from "./pages/admin/AddRFP";
 import AdminProfile from "./pages/admin/AdminProfile";
 import Product from "./pages/admin/Product";
 import AddProduct from "./pages/admin/AddProduct";
+import AddProductCategory from "./pages/admin/AddProductCategory";
 
 //Vendor
 import VendorDash from "./pages/vendor/VendorDash";
@@ -63,6 +64,7 @@ const App = () => {
           <Route path="profile" element={<AdminProfile/>}/>
           <Route path="products" element={<Product/>}/>
           <Route path="create-product" element={<AddProduct/>}/>
+          <Route path="product-category" element={<AddProductCategory/>}/>
         </Route>
 
         <Route path="/vendor" element={<VendorDashboard />}>
